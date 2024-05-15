@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Watch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Stock Database</h1>
+    <h2>What stock do you want to look at?</h2>
+    <form action="/processWatchlist" method="post">  
+        <fieldset> 
+        <b>Name:</b> 
+        <input type="text" name = "name"> 
+        <b>Ticker:</b> 
+        <input type="text" name = "ticker"> 
+        <b>Date:</b>
+        <input type="text" name = "date" value="YYYY-MM-DD"> 
+        <button type = "submit">Submit Application</button> 
+        </fieldset> 
+    </form>
+    <u><a href="/">HOME</a></u> 
+</body>
+</html>
